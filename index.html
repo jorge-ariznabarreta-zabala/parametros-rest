@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div >
+            <img id="imagen-pizza" src="./images/pizza.jpg" alt="">
+        </div>
+
+        <div class="" >
+            <h1>Listado de ingredientes</h1>
+            <ul>
+                <li><button>Óregano</button></li>
+                <li><button>Pepperoni</button></li>
+                <li><button>Mozarella</button></li>
+                <li><button>Queso de cabra</button></li>
+                <li><button>Cebolla</button></li>
+                <li><button>Pimiento verde</button></li>
+                <li><button>Jamón serrano</button></li>
+                <li><button>Champiñones</button></li>
+                <li><button>Atún</button></li>
+
+             <div>
+                <button class="pedido">Realizar pedido</button>
+            </div> 
+
+            </ul>
+        </div>
+    </div>
+    
+</body>
+<style>
+    #imagen-pizza {
+        width: 38rem;
+        height: 28rem;
+        margin-top: 4rem;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 12rem;
+        align-items: center;
+
+    }
+
+    ul li {
+        list-style: none;
+        line-height: 2.5rem;
+    }
+
+    button {
+        width: 15rem;
+        height: 2rem;
+    }
+
+    .pedido {
+        background-color:antiquewhite;
+        margin-top: 2rem;
+
+    }
+</style>
+<script src="script.js"></script>
+</html>
